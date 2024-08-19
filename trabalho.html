@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Página Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        p {
+            font-size: 18px;
+            color: #333;
+        }
+        button {
+            padding: 10px 15px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bem-vindo à minha página web!</h1>
+    <p id="meuParagrafo">Essa é a minha primeira página completa na web.</p>
+    <button onclick="alterarTexto()">Clique aqui para alterar o texto</button>
+
+    <script>
+        function alterarTexto() {
+            document.getElementById('meuParagrafo').textContent = 'O texto do parágrafo foi alterado!';
+        }
+    </script>
+</body>
+</html>
